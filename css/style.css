@@ -998,7 +998,7 @@
     color: var(--gray21);
     font-size: 1.6rem;
     line-height: 100%;
-    letter-spacing: -0.5rem;
+    /* letter-spacing: -0.5rem; */
   }
 }
 @layer line {
