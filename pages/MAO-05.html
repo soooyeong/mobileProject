@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>온라인과정 > 상세보기</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header white">
+      <div class="header__wrapper">
+        <h1><a href="">온라인 교육</a></h1>
+        <div style="--order: 1"><button class="btn-prev" aria-label="이전"></button></div>
+        <div style="--order: 3"></div>
+      </div>
+    </header>
+    <main>
+      <div class="card bagic-space mt24">
+        <div class="gallery-list__thumb">
+          <img src="../images/@thumb.png" alt="" />
+        </div>
+      </div>
+      <div class="align center mt12">
+        <button class="btn regular white ico2">스크랩</button>
+      </div>
+      <h2 class="heading regular bagic-space mt32">독서통신_스러지는 제국의 기록 속에서, 고대와 근대의 유럽을 읽다.</h2>
+      <div class="gallery-list__tag bagic-space mt12">
+        <a href="">필수</a>
+        <a href="">초급</a>
+        <a href="">NSC인증</a>
+        <a href="">플립러닝</a>
+        <a href="">교재</a>
+      </div>
+      <table class="table-type2 bagic-space mt24">
+        <caption>
+          <div>강의정보</div>
+        </caption>
+        <colgroup>
+          <col style="width: 8rem" />
+          <col />
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>학습기간</th>
+            <td><div class="txt-blue">2021-01-01 ~ 2021-12-31</div></td>
+          </tr>
+          <tr>
+            <th>신청기간</th>
+            <td>2021-01-01 ~ 2021-12-31</td>
+          </tr>
+          <tr>
+            <th>과정분류</th>
+            <td>
+              <ul class="bar-type2">
+                <li>공통직무</li>
+                <li>MBA</li>
+                <li>MBA마케팅</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th>교육비</th>
+            <td>100,000원</td>
+          </tr>
+          <tr>
+            <th>과정시간</th>
+            <td>10시간</td>
+          </tr>
+        </tbody>
+      </table>
+      <nav class="bagic-space mt34">
+        <ul class="tab-type1">
+          <li><button class="--active">수료기준</button></li>
+          <li><button>과정소개</button></li>
+          <li><button>과정목차</button></li>
+        </ul>
+      </nav>
+      <table class="table-type3 bagic-space mt25">
+        <caption>
+          <div>표제목</div>
+        </caption>
+        <colgroup>
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>제목</th>
+            <th>제목</th>
+            <th>제목</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>내용</td>
+            <td>내용</td>
+            <td>내용</td>
+          </tr>
+          <tr>
+            <td>내용</td>
+            <td>내용</td>
+            <td>내용</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="align fix-bottom">
+        <div class="btn-group1">
+          <button class="btn white large">맛보기</button>
+          <button class="btn blue large ico1">수강신청</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__copy">COPYRIGHT ⓒ 2000 <b>Rebehayan</b> ALL RIGHTS RESERVED.</div>
+      <ul class="bar-type1">
+        <li>
+          <b><a href="">개인정보처리방침</a></b>
+        </li>
+        <li><b>교육담당</b> : 홍길동 02-1234-5678</li>
+      </ul>
+    </footer>
+    <script>
+      const fixE1 = document.querySelector(".fix-bottom");
+      const body = document.body;
+
+      const fixE1Height = fixE1.offsetHeight;
+      body.style.paddingBottom = fixE1Height + "px";
+
+      //   const fixE1 = $(".fix-bottom");
+      //   const body = $("body");
+
+      //   const fixE1Height = fixE1.offsetHeight;
+      //   body.css("height", fixE1Height);
+    </script>
+  </body>
+</html>
